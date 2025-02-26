@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;   
+}
+body{
+    background-color: #ddd;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header .search{
+    position: relative;
+}
+header .nav-link{
+    color: black;
+    font-size: 17px;
+}
+header .search i{
+    position: absolute;
+    right: 10%;
+    bottom: 33%;
+    color:#3e4859;
+}
+header .search .dark{
+    position: absolute;
+    right: -10%;
+    font-size: 18px;
+}
+header .search input::placeholder{
+    font-style: italic;
+}
+.second-nav {
+    background-color: #282a35;
+}
+.second-nav .nav-link{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.second-nav .nav-link:hover{
+    background-color:#181920;
+}
+/**************************************************/
+main{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main .container{
+    border: 1px solid ;
+    border: none;
+    width: 900px;
+    height: 400px;
+    padding: 10px 12px;
+    background-color: #2D3748;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.container h2{
+    font-size: 33px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+.container sup{
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: #2D3748;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+.container p{
+    font-size: 21px;
+    text-shadow: 0 0 2px white;
+}
+.container span{
+    border: 1px solid;
+    border: none;padding: 0 10px;
+    background-color: rgb(21, 32, 43) ;
+}
+.container form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container form .label{
+    background-color: #ffffff33;
+    display: block;
+    cursor: pointer;
+    display: flex;
+    width:700px;
+    margin: 10px 0 8px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: background-color 0.5;
+    -webkit-transition: background-color 0.5;
+    -moz-transition: background-color 0.5;
+    -ms-transition: background-color 0.5;
+    -o-transition: background-color 0.5;
+}
+.container form .label:hover{
+    background-color: #3e4859;
+}
+.container form label{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.container form button{
+    margin-top: 30px;
+    color: white;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color:#04AA6D;
+    padding:  10px 18px;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: background-color 0.5;
+    -webkit-transition: background-color 0.5;
+    -moz-transition: background-color 0.5;
+    -ms-transition: background-color 0.5;
+    -o-transition: background-color 0.5;
+}
+.container form button:hover{
+    background-color: #02764b;
+
+}
+#dark{
+    cursor: pointer;
+}
+/* start footer*/
+footer {
+    background-image: url(/img/background_in_space.webp);
+    /* height: 50vh; */
+    background-position: right bottom
+}
+
+footer .links a{
+    color: #FFF4A3;
+    font-weight: 600;
+    font-size: 15px;
+}
+footer .links a:hover{
+    text-decoration: underline;
+
+}
+footer .tutorial h5{
+    color: #ddd;
+    font-weight: 600;
+}
+footer .tutorial li{
+    color: #ddd;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+footer .tutorial li:hover{
+    color: #FFF4A3;
+}
+footer .icons a  {
+    color: #ddd;
+    font-size: 20px;
+}
+footer .icons a:hover{
+    color: #FFF4A3;
+    text-decoration: underline;
+}
+footer .icons p{
+    color: #ddd;
+    font-size: 14px;
+    text-align: center;
+}
+footer .icons p a{
+    font-size: 14px;
+}
+/* end footer*/
+/* media query */

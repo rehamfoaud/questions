@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #2D3748;
+}
+.navbar .sign a:first-child{
+    padding: 5px 20px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #04AA6D;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.navbar .sign a:first-child:hover{
+    background-color: #037a4f;
+}
+.navbar a{
+    color: #fff;
+}
+header .title h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+
+header .progress-container {
+    width: 360px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+header .progress-bar {
+    width: 50%;
+    height: 100%;
+    background-color:#04AA6D;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+/* end header*/
+/* start main*/
+main{
+    height: 70vh;
+}
+main .container{
+    height: 70vh;
+    margin-top: 70px;
+}
+main .container .box{
+    background-color: #04AA6D;
+    width: 900px;
+    border-radius: 20px;
+    height: 450px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+main .container .box h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+main .container .box button{
+    border-radius: 6px;
+    border: none;
+    padding: 8px 20px;
+    background-color: #2D3748;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+main .container .box2{
+    width: 900px;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    border-radius:20px;
+    padding: 10px 20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+main .container .box2 h2{
+    font-size: 19px;
+}
+main .container .box2 p{
+    font-size: 15px;
+    text-align: center;
+}
+main .container p a{
+    color: white;
+}
+main .container p a:hover{
+    color: #FFF4A3;
+}
+/**********************************************************************/
+/* next question */
+main .container .box3 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+main .container .box3 .codeblock{
+    background-color: rgb(21, 32, 43);
+    border-radius: 5px;
+    padding: 8px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+main .container .box3 p span{
+    border-radius: 5px;
+    background-color: rgb(21, 32, 43);
+    padding: 5px 8px;
+}
+/**************************************************************/
+/********** final ********************/
+.final .icon i{
+    font-size: 23px;
+    width: 50px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    background-color:rgba(0,0,0,0.1);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+.final .icon i:hover{
+    background-color:rgba(0,0,0,0.3) ;
+}
+header .progress{
+    width: 100%;
+    height: 100%;
+    background-color:#04AA6D;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+} 
